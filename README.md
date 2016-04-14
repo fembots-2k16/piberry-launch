@@ -1,5 +1,7 @@
 SETUP::
 
+    $ cd ~
+
     $ git clone https://github.com/fembots-2k16/piberry-launch
 
 
