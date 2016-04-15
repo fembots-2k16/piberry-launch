@@ -4,7 +4,7 @@ SETUP::
 
     $ git clone https://github.com/fembots-2k16/piberry-launch
     
-    $ sudo apt-get install ros-indigo-hokuyo-node
+    $ sudo apt-get install ros-indigo-hokuyo-node ros-indigo-amcl
     
     $ sudo chmod 777 /dev/ttyACM0  ### might have to do this every time or add it to your ~/.bashrc
     
