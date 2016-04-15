@@ -10,10 +10,6 @@
     
     $ sudo apt-get install ros-indigo-hokuyo-node ros-indigo-amcl ros-indigo-map-server ros-indigo-move-base ros-indigo-dwa-local-planner
     
-    $ sudo chmod 777 /dev/ttyACM0  ### might have to do this every time or add it to your ~/.bashrc
-    
-    $ sudo chmod 777 /dev/ttyUSB0  ### same's club
-    
 ## 2. Updating launch file to look at piberry launch directory
 
     a. change all the path names in navigation.launch to point to /home/<username>/piberry-launch
@@ -31,6 +27,8 @@
 ---------TAB 2------------------------------------
 
     $ cd ~/piberry-launch/
+
+    $ sh enableRobot.sh
 
     $ roslaunch pioneer.launch
 
