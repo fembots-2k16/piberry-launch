@@ -4,6 +4,12 @@ SETUP::
 
     $ git clone https://github.com/fembots-2k16/piberry-launch
     
+    $ sudo apt-get install ros-indigo-hokuyo-node
+    
+    $ sudo chmod 777 /dev/ttyACM0  ### might have to do this every time or add it to your ~/.bashrc
+    
+    $ sudo chmod 777 /dev/ttyUSB0  ### same's club
+    
     ### assuming you already setup from https://github.com/fembots-2k16/configuring-ubuntu
 
 
