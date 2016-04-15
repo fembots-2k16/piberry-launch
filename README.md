@@ -27,6 +27,8 @@
 ---------TAB 2------------------------------------
 
     $ cd ~/piberry-launch/
+    
+    # make sure the robot is turned on!
 
     $ sh enableRobot.sh
 
@@ -36,11 +38,15 @@
 ---------TAB 3------------------------------------
 
     $ cd ~/piberry-launch
+    
+    # if you run into an error with urdf or something, try to source devel/setup.bash before running navigation.launch
+    
+    $ source ~/catkin_ws/devel/setup.bash
 
     $ roslaunch navigation.launch
 
 -------------------------------------------------
---------------TAB 3.5----------------------------
+--------------TAB 3.5 (optional)0000000----------
 
     $ rosrun rviz rviz
 
