@@ -1,4 +1,8 @@
-SETUP::
+# SETUP::
+
+## 1. Downloading & setting permissions
+
+    ### assuming you already setup from https://github.com/fembots-2k16/configuring-ubuntu
 
     $ cd ~
 
@@ -10,7 +14,11 @@ SETUP::
     
     $ sudo chmod 777 /dev/ttyUSB0  ### same's club
     
-    ### assuming you already setup from https://github.com/fembots-2k16/configuring-ubuntu
+## 2. Updating launch file to look at piberry launch directory
+
+    a. change all the path names in navigation.launch to point to /home/<username>/piberry-launch
+    
+    b. note, this will just involve changing "saturn" in all of those paths to your username
 
 
 
