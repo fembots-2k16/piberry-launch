@@ -8,7 +8,7 @@
 
     $ git clone https://github.com/fembots-2k16/piberry-launch
     
-    $ sudo apt-get install ros-indigo-hokuyo-node ros-indigo-amcl ros-indigo-map-server ros-indigo-move-base
+    $ sudo apt-get install ros-indigo-hokuyo-node ros-indigo-amcl ros-indigo-map-server ros-indigo-move-base ros-indigo-dwa-local-planner
     
     $ sudo chmod 777 /dev/ttyACM0  ### might have to do this every time or add it to your ~/.bashrc
     
