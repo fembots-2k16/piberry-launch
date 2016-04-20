@@ -33,6 +33,6 @@ DWAPlannerROS:
   vx_samples: 8
   vtheta_samples: 20
   dwa: true
-  simple_attraactor: false
+  simple_attractor: false
 
   base_local_planner: "DWAPlannerROS"
