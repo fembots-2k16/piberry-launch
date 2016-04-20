@@ -1,17 +1,13 @@
 <launch>
 	<master auto="start"/>
 
-	<!-------------------------CONNECT TO THE PIONEER-------------------------->
     <include file="./pioneer.launch"></include>
 
 
-    <!---------------------------NAVIGATION------------------------------------>
     <include file="./navigation.launch"></include>
 
-    <!-----------------------USB CAM------------------------------------------->
     <include file="./usb_cam-test.launch"></include>
 
-    <!-----------------------APRILTAGS----------------------------------------->
     <include file="./apriltags.launch"></include>
     
 </launch>
