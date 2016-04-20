@@ -30,6 +30,8 @@
     
     # make sure the robot is turned on!
 
+    $ source ~/catkin_ws/devel/setup.bash
+
     $ sh enableRobot.sh
 
     $ roslaunch pioneer.launch
