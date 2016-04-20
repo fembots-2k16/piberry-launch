@@ -9,7 +9,6 @@
 
 	<node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
 		<param name="controller_frequency" value="2.0" />
-        <!--<param name="base_local_planner" value="dwa_local_planner/DWAPlannerROS" />-->
 		<rosparam file="/home/saturn/piberry-launch/costmap_common_params.yaml" command="load" ns="global_costmap" />
 		<rosparam file="/home/saturn/piberry-launch/costmap_common_params.yaml" command="load" ns="local_costmap" />
 		<rosparam file="/home/saturn/piberry-launch/local_costmap_params.yaml" command="load" />
