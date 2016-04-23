@@ -3,11 +3,14 @@
 
     <include file="./pioneer.launch"></include>
 
-
     <include file="./navigation.launch"></include>
 
+    <include file="./exploration.launch"></include>
+
+    <!--
     <include file="./usb_cam-test.launch"></include>
 
     <include file="./apriltags.launch"></include>
+    -->
     
 </launch>
