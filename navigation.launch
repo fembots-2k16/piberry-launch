@@ -3,9 +3,8 @@
 
 	<!-- Run the map server -->
 	<node pkg="map_server" type="map_server" name="map_server" args="/home/appleowner/piberry-launch/map.yaml" />
-
-	<!-- run AMCL-->
-	<include file="/home/appleowner/piberry-launch/amcl.launch" />
+	
+    <include file="/home/appleowner/piberry-launch/amcl.launch" />
 
 	<node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
 		<param name="controller_frequency" value="2.0" />
