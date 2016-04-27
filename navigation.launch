@@ -2,11 +2,7 @@
 	<master auto="start"/>
 
 	<!-- Run the map server -->
-	<!--<node pkg="map_server" type="map_server" name="map_server" args="/home/appleowner/piberry-launch/map.yaml" />-->
-    <!-- Run gmapping?? -->
-    <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping">
-       <param name="scan" value="scan">
-    </node>
+	<node pkg="map_server" type="map_server" name="map_server" args="/home/appleowner/piberry-launch/map.yaml" />
 	
     <include file="/home/appleowner/piberry-launch/amcl.launch" />
 
